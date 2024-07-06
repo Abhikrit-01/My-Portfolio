@@ -1,0 +1,225 @@
+*{
+    margin:0%;
+    padding: 0%;
+   font-family:sans-serif;
+}
+body{
+    background-color:#080808;
+    color: #fff;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(IMAGE.png);
+    background-position: left;
+    background-size: cover;
+}
+.container {
+    padding: 10px 10%;
+
+}
+#logo{
+    width: 140px;
+    height:40px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logo h1 span{
+    color:red;
+}
+nav {
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+nav ul li a:hover{
+ text-decoration: underline;
+ text-decoration-thickness: 3px;
+ text-decoration-color: red;
+ transition:0.5s;
+ 
+}
+.txt {
+    margin-top: 17%;
+    font-size: 20px;
+}
+.txt p{
+    margin-top: 20px;
+}
+.txt h1{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+.txt h1 span{
+    color:red;
+}
+  
+     /* ABOUT ME */
+
+     
+#about{
+    color: #fff;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    
+}
+#row{
+    flex-wrap: wrap;
+    justify-content:space-between;
+    display: flex;
+    
+}
+#row1{
+    flex-basis: 30%;
+    margin-left: 5%;
+    
+}
+#row1 img{
+    width:100%;
+    border-radius: 20px;
+    transition: transform 0.5s ease ;
+}
+#row2{
+    flex-basis: 50%;
+    padding:10px;
+    margin-right: 8%;
+}
+#row1 img:hover{
+    transform: scale(115%);
+}
+#content {
+    display : flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#row2 h1:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 1.8px;
+    text-decoration-color: red;
+    transition: 0.5s;
+    
+}
+#row2 p{
+ margin-top:20px;
+
+}
+.x:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-decoration-color: red;
+    transition:0.5s;
+}
+#content p{
+  margin-right:20px;
+  margin-top: 20px;
+}
+.xcontent ul{
+  
+  list-style: none;
+}
+.xcontent LI span{
+    color: rgb(162, 8, 8);
+   
+}
+.xcontent{
+    display: none;
+}
+.xcontent.tab-content{
+     display: block;
+}
+ /* ----------------------------------- */
+#service{
+    padding:50px;
+}
+#service h1{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#service h1 span{
+    color:red;
+}
+#service h2{
+    font-size: 20px;
+    
+}
+
+.list{
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap: 30px;
+}
+.list h2{
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(209, 4, 4);
+}
+.item{
+    background-color: rgb(38, 38, 38);
+    padding: 40px;
+    border:solid 2px black;
+    border-radius: 15px;
+}
+.item p{
+    margin-bottom: 20px;
+    font-weight: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.item a{
+ text-decoration-line: none;
+ color: #fff;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.item:hover{
+    transform: translateY(-12px);
+    background-color: #ab244f;
+    transition:transform 0.5 s;
+}
+
+.item:hover h2{
+    color:#fff;
+  }
+ /* ------------------------ */
+ #portfolio{
+    padding:50px;
+ }
+.port{
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    grid-gap: 30px;
+}
+.pt{
+    border:solid 2px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(38, 38, 38, 0.6), #be134a);
+    padding: 10px;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+.pt:hover{
+    transform: translateY(-12px);
+    transition:transform 0.5 s;
+    background-color: #ff004f;
+}
+
+   

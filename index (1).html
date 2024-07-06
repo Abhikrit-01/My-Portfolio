@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="pf.css">
+</head>
+<body>
+    <div id="main">
+        <div class="container">
+            <nav> 
+                <div id="logo">
+                    <h1><span>A</span>BHIKRIT.</h1>
+                </div>
+                <ul> 
+                    <LI><a href ="p">HOME</a></LI>
+                    <LI><a href ="p">ABOUT ME</a></LI>
+                    <LI><a href ="p">PROJECTS</a></LI>
+                    <LI><a href ="p">BIODATA</a></LI>
+                    <LI><a href ="p">CONTACTS</a></LI>
+                </ul>
+            </nav>
+            <div class="txt">
+                <p>WEB DEVELOPER</p>
+                <h1> Hi, I'm<span> Abhikrit </span> Verma<br> from India.</h1>
+            
+            </div>
+        </div>
+        
+    </div>
+       <!-- about section of the portfolio -->
+   <div id="about">
+    <div id="container">
+        <div id="row">
+            <div id="row1">
+                <img src="Screenshot (11).png">
+            </div>
+           <div id="row2">
+            <h1> ABOUT ME </h1>
+            <p> Hey there , i am currently learning the frontened devlopment. i have worked only on very minor projects during my learning period .now i am in search to work with the associatives . </p>
+            <div id="content">
+             <p class ="x" onclick="opentab('skills')"> TECH SKILLS</p>
+             <p class ="x" onclick="opentab('education')"> EDUCATION</p>
+             <p class ="x" onclick="opentab('experience')"> MORE</p>
+             </div>
+             <div class="xcontent tab-content" id ="skills">
+             <ul>
+                 <LI><p><span> Coding Languages </span><br> C , C++</p></LI>
+                 <LI><p><span>Web Domain</span><br>HTML , CSS , Javascript</p> </LI>
+                 <LI><p><span>Tools</span><br>Git , GitHub , Vs Code</p> </LI>
+
+            </ul>
+        </div>
+            <div class="xcontent" id ="education">
+             <ul>
+                <LI><p><span>2020</span><br> Secondary Education</p></LI>
+                <LI><p><span>2022</span><br>Higher Secondary Education</p> </LI>
+                <LI><p><span>2023</span><br>B.Tech , NIT SILCHAR</p> </LI>
+           </ul>
+        </div>
+        <div class="xcontent" id ="experience">
+             <ul>
+                <LI><p><span>Soft Skills</span><br> Leadership , Teamwork , Time Management</p></LI>
+                <LI><p><span>Sports</span><br> Cricket , Badminton</p></LI>
+                <LI><p><span>Interest</span><br> Poetry , Music </p> </LI>
+           </ul>
+        </div>
+            
+           </div>
+        </div>   
+    </div>
+
+
+   </div>
+             <!-- project section of the portfolio -->
+   <div id="service"> 
+    <h1><span>M</span>Y <span>P</span>ROJECTS</h1>
+       <div class="list">
+       <div class="item"><h2>TIC TAC TOE</h2><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nihil.
+       </p><a href="#">Learn More</a></div>
+       <div class="item"> <h2>GAME OF CARDS</h2><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aut.
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, alias.</p><a href="#">Learn More</a></div>
+       <div class="item"><h2>WEBSITE CLONE</h2><p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, aut.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, vel.</p><a href="#">Learn More</a></div>
+  </div>
+    
+     <!-- BIO DATA SECTION OF THE PORTFOLIO -->
+   
+    <div id="portfolio"></div>
+    <h1><span>B</span>IO <span>D</span>ATA</h1>
+    <div class="port">
+        <div id="port1" class ="pt"><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero iusto ipsa harum nisi! Necessitatibus mollitia illo soluta deserunt facere id, officia aspernatur rerum ipsa est at cum natus, eaque iusto iste optio voluptatem doloribus incidunt eveniet nobis quibusdam placeat enim. Suscipit id nihil laboriosam? Soluta eos quod non iusto repellat.</p>
+        </div>
+        <div id="port2" class ="pt">
+           
+        </div>
+        <div id="port3"  class ="pt"></div>
+    </div>
+
+    <script>
+     let p = document.getElementsByClassName("xcontent");
+     function opentab(tabname){
+     for(con of p){
+                con.classList.remove("tab-content")
+            }
+     document.getElementById(tabname).classList.add("tab-content")
+          }
+    </script>
+</body>
+</html>
