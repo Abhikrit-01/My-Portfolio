@@ -10,8 +10,8 @@ body{
 #main{
     height: 100vh;
     width: 100%;
-    background-image: url(IMAGE.png);
-    background-position: left;
+   background-image: url(SAVE_20231207_125032_1_-removebg.png);
+    background-position: center;
     background-size: cover;
 }
 .container {
@@ -116,6 +116,7 @@ nav ul li a:hover{
 }
 #row2 p{
  margin-top:20px;
+ 
 
 }
 .x:hover{
@@ -157,6 +158,11 @@ nav ul li a:hover{
     font-size: 20px;
     
 }
+.item i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color:  #fff;
+}
 
 .list{
     margin-top:30px;
@@ -171,7 +177,7 @@ nav ul li a:hover{
     color: rgb(209, 4, 4);
 }
 .item{
-    background-color: rgb(38, 38, 38);
+    background-color:#262626;
     padding: 40px;
     border:solid 2px black;
     border-radius: 15px;
@@ -192,7 +198,9 @@ nav ul li a:hover{
     background-color: #ab244f;
     transition:transform 0.5 s;
 }
-
+#portfolio{
+    margin-bottom:0;
+}
 .item:hover h2{
     color:#fff;
   }
@@ -206,13 +214,31 @@ nav ul li a:hover{
     grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
     grid-gap: 30px;
 }
+#row1{
+    border: solid 1px white;
+    border-radius: 10px;
+}
+ #row2.xcontent{
+    align-items: center;
+}
+#row2{
+    border: solid 1px white;
+    border-radius: 10px;    
+}
+.pt p{
+    text-align: left;
+}
+.pt h2{
+    text-align: center;
+}
 .pt{
     border:solid 2px;
     border-radius: 15px;
     background: linear-gradient(rgba(38, 38, 38, 0.6), #be134a);
-    padding: 10px;
+    padding : 20px;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
@@ -221,5 +247,282 @@ nav ul li a:hover{
     transition:transform 0.5 s;
     background-color: #ff004f;
 }
-
+.port h2 {
+    
+}
+.pt p{
+    margin-top: 20px;
+}
+#row2 p{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#row2 h1 span{
+    color:red;
+}
+.contact{
    
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.low{
+    flex-wrap: wrap;
+  justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+#cont h1{
+    margin-top: 15%;
+    padding-left: 0%;
+    margin-left:0%;
+}
+.conl{
+    flex-basis: 30%;
+  margin-left: 20px;
+  margin-bottom: 5%;
+}
+.conr{
+    flex-basis: 60%;
+    margin-top:0%;
+}
+.conl p{
+    margin-top:18px;
+}
+.conl p i{
+  margin-right: 20px;
+  color:#ff004f;
+  font-size: 15px;
+}
+/* .quote{
+    width:fit-content;
+    color: #080808;
+   
+    background-color: #ff004f;
+    padding: 10px;
+    margin-top: 30px;
+}
+.quote p{
+  
+    font-family: 'Times New Roman', Times, serif;
+
+} */
+.icons a{
+    text-decoration: none;
+    margin-top:25px;
+    font-size: 30px;
+    margin-right:12px;
+    color: white;
+    display: inline-block;
+    transition:transform 0.5s;
+  margin-bottom:15px;
+}
+   
+.icons a:hover{
+    color:#ff004f;
+  transform :translateY(-5px);
+}
+.l{ 
+    
+  padding: 10px;
+    text-decoration: none;
+    border: solid 2px ;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+   margin-right: 5px;
+    background-color: #ff004f;
+    color:#080808;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.l:hover{
+    background-color:#ab244f;
+    transform :translateY(-5px);
+    color:white;
+}
+.conr form{
+    width:100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    width:100%;
+     background-color: #262626;
+     color:white;
+     margin:10px 0;
+     padding: 10px;
+     font-size:18px;
+
+}
+.l.btn1{
+ cursor:pointer;
+
+ width:100px;
+ height:45px;
+}
+.copyr{
+    text-align:center;
+    margin-top:30px;
+    
+    background-color:black;
+    padding: 5px;
+    width:100%;
+    color:white;
+}
+.pt {
+    padding:25px;
+}
+.copyr p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.copyr i{
+    color: #ff004f;
+}
+.l{
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px rgba(255, 0, 79,0.3) ;
+}
+.pt h2{
+    text-align: center;
+}
+nav .fa-solid{
+    display: none;
+}
+
+/* * ------------------CSS SMALL SCREEN----------------------- */
+ @media (max-width: 600px){ */
+    #main{
+    background-position: center;
+    background-color:black;
+    
+    }
+    #logo h1{
+        margin-top: 20px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .container nav{
+        margin-top: 20px;
+    }
+   
+
+    nav .fa-bars{
+        margin-top:30px;
+        margin-left: 71%;
+    }
+
+    .txt p {
+       font-weight:light;
+        font-size: 16px;
+        margin-top: 150%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .txt h1{
+        font-size: 25px;
+    }
+    
+nav .fa-solid{
+     font-size: 20px;
+    display:block;
+}
+nav ul{
+    top:0;
+    right: -200px;
+    position: fixed;
+    background: #ff004f;
+    width:200px;
+    height: 100vh;
+    padding-top: 50px;
+   z-index: 2;
+   transition: right 0.5s;
+}
+
+nav ul LI{
+    display: block;
+    margin:25px;
+}
+nav .fa-solid{
+   top:25px;
+   left:25px;
+   position: absolute;
+    cursor:pointer;
+}
+
+#row2 h1{
+  font-size: 25px;
+}
+#row1{
+    flex-basis:90%;
+    border:0px;
+    margin-bottom: 30px;
+}
+#row2{
+    flex-basis:100%;
+    border:0px;
+    padding-left: 30px;
+    
+}
+#row2 p{
+    font-size:14px;
+    
+    
+}
+#service h1{
+    margin-left: 30px;
+    align-self: center;
+    font-size: 25px;
+}
+.item{
+    align-self: center;
+    margin-right: 50px ;
+}
+
+.conl,.conr{
+    flex-basis: 100%;
+   
+}
+.conr p{
+    font-size: 15px;
+}
+.conl h1{
+    font-size: 30px;
+    margin-left: 20px;
+    padding: 0%;
+}
+.conl{
+    margin-bottom: 30px;
+}
+.conl p ,i{
+    font-size: 12px;
+}
+.icons i{
+    font-size: 25px;
+}
+#cont h1{
+    font-size:25px;
+    margin-top: 25%;
+}
+.copyr p{
+    font-size: small;
+}
+.conl{
+   
+    padding-left: 5px;
+   
+}
+ }
+html{
+    scroll-behavior: smooth;
+}
+.pt h2{
+    color:black;
+}
+#sent{
+    
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
